@@ -1,0 +1,40 @@
+{
+  "name": "@tea/client",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "nefayran"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "lint:eslint": "eslint . --ext .ts,.js,.tsx,.jsx",
+    "lint:eslint:fix": "eslint . --ext .ts,.js,.tsx,.jsx --fix"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet-async": "^1.3.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.3",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "@vitejs/plugin-react": "^1.3.2",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-config-google": "^0.14.0",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.8",
+    "vite-tsconfig-paths": "^3.4.1"
+  }
+}
