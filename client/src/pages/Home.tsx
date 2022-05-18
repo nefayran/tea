@@ -11,6 +11,8 @@ export default function Home() {
         <li>SASS/SCSS</li>
         <li>React Bootstrap</li>
         <li>Typescript</li>
+        <li>Redux</li>
+        <li>Redux Thunk</li>
       </ul>
       <p>You can order tea in the catalog</p>
     </main>
