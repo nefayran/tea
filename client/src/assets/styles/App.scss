@@ -1,0 +1,76 @@
+$tea-color-1: #582710;
+$tea-color-2: #F45A02;
+$tea-color-3: #DFDDE0;
+$tea-color-4: #9D7B61;
+
+$theme-colors: (
+  "primary": $tea-color-4,
+  "danger": $tea-color-2,
+  "secondary": $tea-color-1,
+  "accent": $tea-color-3,
+);
+
+@import "bootstrap/scss/bootstrap";
+
+html, body, #root, .App {
+    background: $tea-color-4;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    min-width: 768px; /* it's just a demo */
+    overflow: hidden;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/* Header */
+.header-wrapper {
+    color: $tea-color-3;
+    border-bottom: 1px solid $tea-color-1;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+}
+
+/* Sidebar */
+.sidebar {
+    border-right: 1px solid $tea-color-1;
+
+    .nav-link {
+        padding-left: 0;
+        font-size: 1.5rem;
+        color: $tea-color-1;
+
+        &:hover {
+            color: $tea-color-3;
+        }
+    }
+
+    .nav-link.active {
+        font-weight: bold;
+    }
+}
+
+.content-wrapper {
+    color: $tea-color-3
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: $tea-color-1;
+
+    p {
+        color: $tea-color-3;
+        text-align: center;
+        font-size: .75rem;
+    }
+}
