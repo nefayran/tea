@@ -7,4 +7,5 @@
       },
     "eslint.validate": ["javascript"],
     "eslint.format.enable": true,
+    "nuxt.isNuxtApp": false,
 }
